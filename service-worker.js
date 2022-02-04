@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-cards_usingprops/precache-manifest.e8909a8a300e6e64a8bd8ecd30dc2aac.js"
+  "/cards_usingprops/precache-manifest.9e53a8fa476213d782015d891beef0ed.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/react-cards_usingprops/index.html", {
+workbox.routing.registerNavigationRoute("/cards_usingprops/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
